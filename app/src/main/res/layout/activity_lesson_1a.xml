@@ -13,25 +13,23 @@
     <TextView
         android:id="@+id/txtUdacity"
         android:text="@string/txtUdacity"
-        android:layout_width="610dp"
+        android:layout_width="match_parent"
         android:layout_height="300dp"
         android:background="@android:color/darker_gray"
         android:textSize="36sp"
         android:textAlignment="center"
-        android:textColor="?android:attr/textColorTertiary"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:textColor="?android:attr/textColorTertiary" />
 
     <TextView
-        android:layout_below="@+id/txtUdacity"
         android:id="@+id/wrapContentText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/wrap_content_text"
-        android:layout_alignParentStart="true"
-        android:background="?attr/colorButtonNormal"
-        android:textColor="@android:color/background_dark"
-        android:textAppearance="?android:textAppearanceMedium" />
+        android:background="#3F51B5"
+        android:textColor="#FFA000"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_below="@+id/txtUdacity"
+        android:layout_alignParentStart="true" />
 
 
 </RelativeLayout>
