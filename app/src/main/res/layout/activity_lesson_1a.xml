@@ -12,16 +12,6 @@
     tools:context="cz.konsalting.www.lesson_1a.lesson_1a">
 
     <TextView
-        android:id="@+id/txtUdacity"
-        android:text="@string/txtUdacity"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:background="@android:color/darker_gray"
-        android:textSize="36sp"
-        android:textAlignment="center"
-        android:textColor="?android:attr/textColorTertiary" />
-
-    <TextView
         android:id="@+id/wrapContentText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -30,15 +20,31 @@
         android:textColor="#FFA000"
         android:textAppearance="?android:textAppearanceMedium"
         android:layout_below="@+id/txtUdacity"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textStyle="italic"
+        android:textAllCaps="true"
+        />
 
     <ImageView
+        android:layout_below="@+id/wrapContentText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/firstimg"
-        android:layout_below="@+id/wrapContentText"
-        android:layout_alignParentStart="true"
         android:id="@+id/imageView2"
         android:layout_alignParentBottom="true"
-        android:scaleType="centerInside"/>
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txtUdacity"
+        android:text="@string/txtUdacity"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@android:color/darker_gray"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:textColor="?android:attr/textColorTertiary"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    "
+        android:layout_alignParentBottom="true" />
 </RelativeLayout>
