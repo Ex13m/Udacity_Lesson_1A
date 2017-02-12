@@ -15,7 +15,6 @@
         android:layout_height="300dp"
         android:text="@string/txtUdacity"
         android:background="@android:color/darker_gray"
-        android:id="@+id/txtUdacity" /
-    >
+        android:id="@+id/txtUdacity" />
 
 </RelativeLayout>
