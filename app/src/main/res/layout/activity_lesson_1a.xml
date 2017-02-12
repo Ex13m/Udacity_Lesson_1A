@@ -11,9 +11,11 @@
     tools:context="cz.konsalting.www.lesson_1a.lesson_1a">
 
     <TextView
-        android:layout_width="150dp"
-        android:layout_height="200dp"
-        android:text="Hello World!"
+        android:layout_width="610dp"
+        android:layout_height="300dp"
+        android:text="@string/txtUdacity"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/txtUdacity" /
+    >
 
-        />
 </RelativeLayout>
