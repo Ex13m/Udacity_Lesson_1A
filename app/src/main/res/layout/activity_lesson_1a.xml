@@ -35,7 +35,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/fistimg"
+        app:srcCompat="@drawable/firstimg"
         android:layout_below="@+id/wrapContentText"
         android:layout_alignParentStart="true"
         android:id="@+id/imageView2"
