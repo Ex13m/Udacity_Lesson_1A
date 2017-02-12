@@ -18,11 +18,13 @@
         android:background="@android:color/darker_gray"
         android:textSize="36sp"
         android:textAlignment="center"
-        android:textColor="?android:attr/textColorTertiary" />
+        android:textColor="?android:attr/textColorTertiary"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_below="@+id/txtUdacity"
-        android:id="@+id/wrap_content_text"
+        android:id="@+id/wrapContentText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/wrap_content_text"

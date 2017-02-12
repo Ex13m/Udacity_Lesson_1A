@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">lesson_1a</string>
     <string name="txtUdacity">First udacity lesson!</string>
+    <string name="wrap_content_text">The long-string instrument is a musical instrument in which the string is of such a length that the fundamental transverse wave is below what a person can hear ...</string>
 </resources>
