@@ -8,13 +8,14 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".lesson_1a">
+        <activity android:name=".lesson_1a.lesson_1a">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".parctice_set_1.BirthdayCard"></activity>
     </application>
 
 </manifest>
