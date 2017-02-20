@@ -12,7 +12,6 @@
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_alignParentTop="true"
         android:padding="16dp"
         android:text="@string/happy_birthday_max"
@@ -22,7 +21,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:padding="16dp"
         android:text="@string/from_igor_novak"
