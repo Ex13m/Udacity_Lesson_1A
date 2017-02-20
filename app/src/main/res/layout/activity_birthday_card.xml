@@ -5,31 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="cz.konsalting.www.lesson_1a.parctice_set_1.BirthdayCard"
-    android:background="@drawable/background">
+    android:background="@drawable/background"
+    tools:context="cz.konsalting.www.lesson_1a.parctice_set_1.BirthdayCard">
 
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Happy Birthday Max!"
-    android:textColor="@android:color/white"
-    android:textSize="30sp"
-    android:layout_alignParentTop="true"
-    android:layout_alignParentLeft="true"
-    android:padding="16dp"
-    />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:padding="16dp"
+        android:text="@string/happy_birthday_max"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="From, Igor Novak!  "
-        android:textColor="@android:color/white"
-        android:textSize="30sp"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:padding="16dp"
-        />
-
+        android:text="@string/from_igor_novak"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
 
 
 </RelativeLayout>
